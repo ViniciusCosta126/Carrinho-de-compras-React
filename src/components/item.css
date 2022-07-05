@@ -1,0 +1,30 @@
+.item__container {
+  border: 1px solid black;
+  width: 60%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-radius: 4px;
+}
+
+.item__container button {
+  padding: 12px 24px;
+  background-color: #70c1b3;
+  border: none;
+  border-radius: 4px;
+}
+.item__container p {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+.delete_cart {
+  margin-bottom: 10px;
+  padding: 12px 24px;
+  background-color: #ed254e;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+}
